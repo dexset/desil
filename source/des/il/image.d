@@ -138,7 +138,7 @@ pure:
     }
 
     CrdVector!0 robSize( size_t K ) const
-    { return CrdVector!(0).fillOne( K, size, 1 ); }
+    { return CrdVector!(0).fill( K, size, 1.repeat.take(K-size.length).array ); }
 
     ///
     immutable(void[]) dump() const
