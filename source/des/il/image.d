@@ -16,8 +16,6 @@ import des.il.util;
 
 public import des.stdx.type;
 
-import std.stdio;
-
 ///
 struct Image
 {
